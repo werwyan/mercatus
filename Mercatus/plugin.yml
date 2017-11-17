@@ -1,0 +1,8 @@
+name: CannonsForLife
+main: me.xxbramxx.plugin.Main
+version: 1.0
+depend: [Vault]
+commands:
+  destroy:
+    description: Destroys a cannon
+    usage: /destroy
