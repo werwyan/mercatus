@@ -4,12 +4,11 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-
 import com.cubexis.plugin.Mercatus;
 
 public class Commands implements CommandExecutor 
 {
-	Mercatus main;
+	Mercatus main; 
 	
 	public Commands(Mercatus main)
 	{
@@ -20,8 +19,7 @@ public class Commands implements CommandExecutor
 	public boolean onCommand(CommandSender sender, Command cmd, String command, String[] args) 
 	{
 		if (sender instanceof Player)
-		{
-			
+		{  
 			Player player = (Player) sender;
 			player.sendMessage("The /destroy command");
 		
