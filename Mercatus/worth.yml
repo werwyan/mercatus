@@ -1,0 +1,6 @@
+# All data about item-prices will be stored here
+# If a number is less than 0 that means this functionalitiy is disabled
+worth:
+  example_type: 
+    min_price: 100 
+    max_price: 500

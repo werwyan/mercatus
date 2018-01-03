@@ -1,0 +1,12 @@
+# All categories will be created here
+# item = type of item
+# enabled = if this category 
+# amount: <= 0 = unlimited, > 0 = enabled with set amount
+# items = item type: current item price (this value will change depending on ask and demand)
+exampleCategory:
+   name: '&a || example category ||'
+   enabled: true
+   amount: 0
+   items:
+     - stone: 44
+     - iron: 32

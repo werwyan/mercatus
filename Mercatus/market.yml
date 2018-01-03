@@ -1,0 +1,8 @@
+# Market GUI will be created here
+market:
+  rows: 1
+  enabled: true
+  stocks: true
+  personal: true
+  categories:
+    - exampleCategory
