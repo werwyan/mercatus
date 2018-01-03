@@ -1,4 +1,4 @@
-package com.cubexis.command;
+package com.cubexis.view;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

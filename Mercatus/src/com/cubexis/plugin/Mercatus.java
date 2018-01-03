@@ -3,7 +3,7 @@ package com.cubexis.plugin;
 import java.io.File;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.cubexis.command.Commands;
+import com.cubexis.view.Commands;
 
 
 public class Mercatus extends JavaPlugin {
